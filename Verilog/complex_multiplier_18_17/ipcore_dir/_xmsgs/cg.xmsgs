@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="sim" num="927" delta="new" >Generating component instance &apos;<arg fmt="%s" index="1">complex_multiplier_17_17</arg>&apos; of &apos;<arg fmt="%s" index="2">xilinx.com:ip:cmpy:3.1</arg>&apos; from &apos;<arg fmt="%s" index="3">D:\jiaweiwei\Xilinx\Xilinx_ISE_DS_Win_13.1\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\cmpy_v3_1\component.xml</arg>&apos;.
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Resolving generics for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Applying external generics to &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Delivering associated files for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Generating implementation netlist for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Pre-processing HDL files for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Writing instantiation template for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Writing RTL behavioral simulation model for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="warning" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Verilog simulation file type &apos;Behavioral&apos; is not valid for this core. Overriding with simulation file type &apos;Structural&apos;.</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Writing Verilog structural simulation model for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+<msg type="info" file="sim" num="0" delta="new" ><arg fmt="%s" index="1">Generating SYM schematic symbol for &apos;complex_multiplier_17_17&apos;...</arg>
+</msg>
+
+</messages>
+

@@ -1,0 +1,3 @@
+verilog work "ipcore_dir/complex_multiplier_17_17.v"
+verilog work "shift_register_gai.v"
+verilog work "complex_multiplier_18_17.v"

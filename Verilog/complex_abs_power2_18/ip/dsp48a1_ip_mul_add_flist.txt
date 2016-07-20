@@ -1,0 +1,15 @@
+# Output products list for <dsp48a1_ip_mul_add>
+_xmsgs\pn_parser.xmsgs
+dsp48a1_ip_mul_add.asy
+dsp48a1_ip_mul_add.gise
+dsp48a1_ip_mul_add.ngc
+dsp48a1_ip_mul_add.sym
+dsp48a1_ip_mul_add.v
+dsp48a1_ip_mul_add.veo
+dsp48a1_ip_mul_add.vhd
+dsp48a1_ip_mul_add.vho
+dsp48a1_ip_mul_add.xco
+dsp48a1_ip_mul_add.xise
+dsp48a1_ip_mul_add_flist.txt
+dsp48a1_ip_mul_add_readme.txt
+dsp48a1_ip_mul_add_xmdf.tcl

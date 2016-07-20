@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="sim" num="927" delta="old" >Generating component instance &apos;<arg fmt="%s" index="1">dsp48a1_ip_mul</arg>&apos; of &apos;<arg fmt="%s" index="2">xilinx.com:ip:xbip_dsp48_macro:2.1</arg>&apos; from &apos;<arg fmt="%s" index="3">D:\Xilinx\13.1\ISE_DS\ISE\coregen\ip\xilinx\dsp\com\xilinx\ip\xbip_dsp48_macro_v2_1\xbip_dsp48_macro_v2_1.xcd</arg>&apos;.
+</msg>
+
+</messages>
+

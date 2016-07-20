@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<document OS="nt" product="ISE" version="13.1">
+
+  <!--The data in this file is primarily intended for consumption by Xilinx tools.
+    The structure and the elements are likely to change over the next few releases.
+    This means code written to parse this file will need to be revisited each subsequent release.-->
+
+  <application stringID="NgdBuild" timeStamp="Wed Oct 28 10:44:45 2015">
+    <section stringID="User_Env">
+      <table stringID="User_EnvVar">
+        <column stringID="variable"/>
+        <column stringID="value"/>
+        <row stringID="row" value="0">
+          <item stringID="variable" value="Path"/>
+          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\ISE\\lib\nt;D:\Xilinx\13.1\ISE_DS\ISE\\bin\nt;D:\Xilinx\13.1\ISE_DS\PlanAhead\bin;D:\Xilinx\13.1\ISE_DS\ISE\bin\nt;D:\Xilinx\13.1\ISE_DS\ISE\lib\nt;D:\Xilinx\13.1\ISE_DS\EDK\bin\nt;D:\Xilinx\13.1\ISE_DS\EDK\lib\nt;D:\Xilinx\13.1\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilinx\13.1\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilinx\13.1\ISE_DS\EDK\gnuwin\bin;D:\Xilinx\13.1\ISE_DS\common\bin\nt;D:\Xilinx\13.1\ISE_DS\common\lib\nt;C:\Program Files\STMicroelectronics\st_toolset\asm;C:/Program Files/Texas Instruments/xdctools_3_22_04_46;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\cand\candence\SPB_16.3\tools\bin;D:\cand\candence\SPB_16.3\tools\libutil\bin;D:\cand\candence\SPB_16.3\tools\fet\bin;D:\cand\candence\SPB_16.3\tools\pcb\bin;D:\cand\candence\SPB_16.3\tools\specctra\bin;D:\cand\candence\SPB_16.3\tools\PSpice;D:\cand\candence\SPB_16.3\tools\PSpice\Library;D:\cand\candence\SPB_16.3\tools\Capture;D:\cand\candence\SPB_16.3\OpenAccess\bin\win32\opt;C:\Program Files\Common Files\Acronis\SnapAPI\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\MATLAB\R2009b\runtime\win32;C:\Program Files\MATLAB\R2009b\bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE;%XDCROOT%;C:\Program Files\COSMIC\CXSTM8_32K;D:\modeltech_6.5f\win32;C:\Program Files\IDM Computer Solutions\UEStudio '06"/>
+        </row>
+        <row stringID="row" value="1">
+          <item stringID="variable" value="PATHEXT"/>
+          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"/>
+        </row>
+        <row stringID="row" value="2">
+          <item stringID="variable" value="XILINX"/>
+          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\ISE\"/>
+        </row>
+        <row stringID="row" value="3">
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\ISE"/>
+        </row>
+        <row stringID="row" value="4">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\EDK"/>
+        </row>
+        <row stringID="row" value="5">
+          <item stringID="variable" value="XILINX_PLANAHEAD"/>
+          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\PlanAhead"/>
+        </row>
+      </table>
+      <item stringID="User_EnvOs" value="OS Information">
+        <item stringID="User_EnvOsname" value="Microsoft Windows XP Professional"/>
+        <item stringID="User_EnvOsrelease" value="Service Pack 3  (build 2600)"/>
+      </item>
+      <item stringID="User_EnvHost" value="PC-PP"/>
+      <table stringID="User_EnvCpu">
+        <column stringID="arch"/>
+        <column stringID="speed"/>
+        <row stringID="row" value="0">
+          <item stringID="arch" value="Intel(R) Core(TM)2 Quad CPU    Q9500  @ 2.83GHz"/>
+          <item stringID="speed" value="2826 MHz"/>
+        </row>
+      </table>
+    </section>
+    <task stringID="NGDBUILD_OPTION_SUMMARY">
+      <section stringID="NGDBUILD_OPTION_SUMMARY">
+        <item DEFAULT="None" label="-intstyle" stringID="NGDBUILD_intstyle" value="ise"/>
+        <item DEFAULT="None" label="-dd" stringID="NGDBUILD_output_dir" value="_ngo"/>
+        <item DEFAULT="None" label="-p" stringID="NGDBUILD_partname" value="xc6slx100t-fgg484-3"/>
+        <item DEFAULT="None" label="-sd" stringID="NGDBUILD_search_path" value="ip"/>
+      </section>
+    </task>
+    <task stringID="NGDBUILD_REPORT">
+      <section stringID="NGDBUILD_DESIGN_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_ERRORS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_WARNINGS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_WARNINGS" value="96"/>
+        <item dataType="int" stringID="NGDBUILD_FILTERED_INFOS" value="0"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_INFOS" value="0"/>
+      </section>
+      <section stringID="NGDBUILD_PRE_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_BUFGP" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_DSP48A1" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="36"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="48"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="2"/>
+      </section>
+      <section stringID="NGDBUILD_POST_UNISIM_SUMMARY">
+        <item dataType="int" stringID="NGDBUILD_NUM_BUFG" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_DSP48A1" value="2"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_GND" value="4"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUF" value="36"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_IBUFG" value="1"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_OBUF" value="48"/>
+        <item dataType="int" stringID="NGDBUILD_NUM_VCC" value="4"/>
+      </section>
+      <section stringID="NGDBUILD_CORE_SUMMARY">
+        <item COUNT="1" stringID="NGDBUILD_CORE" value="xbip_dsp48_macro_v2_1, Xilinx CORE Generator 13.1"/>
+        <section stringID="NGDBUILD_CORE_GENERATION_SUMMARY">
+          <section stringID="NGDBUILD_CORE_INSTANCES">
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="dsp48a1_ip_mul">
+              <item stringID="NGDBUILD_CORE_INFO" type="xbip_dsp48_macro_v2_1" value="dsp48a1_ip_mul"/>
+              <item c_a_width="18" c_b_width="18" c_c_width="48" c_concat_width="48" c_constant_1="1" c_d_width="18" c_has_a="1" c_has_acin="0" c_has_acout="0" c_has_b="1" c_has_bcin="0" c_has_bcout="0" c_has_c="0" c_has_carrycascin="0" c_has_carrycascout="0" c_has_carryin="0" c_has_carryout="0" c_has_ce="0" c_has_cea="0" c_has_ceb="0" c_has_cec="0" c_has_ceconcat="0" c_has_ced="0" c_has_cem="0" c_has_cep="0" c_has_cesel="0" c_has_concat="0" c_has_d="0" c_has_indep_ce="0" c_has_indep_sclr="0" c_has_pcin="0" c_has_pcout="0" c_has_sclr="0" c_has_sclra="0" c_has_sclrb="0" c_has_sclrc="0" c_has_sclrconcat="0" c_has_sclrd="0" c_has_sclrm="0" c_has_sclrp="0" c_has_sclrsel="0" c_latency="128" c_model_type="0" c_opmodes="0000000000010000000" c_p_lsb="0" c_p_msb="47" c_reg_config="00000000000000000011000000000100" c_sel_width="0" stringID="NGDBUILD_CORE_PARAMETERS" value="dsp48a1_ip_mul"/>
+            </scope>
+            <scope stringID="NGDBUILD_CORE_INSTANCE" value="dsp48a1_ip_mul_add">
+              <item stringID="NGDBUILD_CORE_INFO" type="xbip_dsp48_macro_v2_1" value="dsp48a1_ip_mul_add"/>
+              <item c_a_width="18" c_b_width="18" c_c_width="48" c_concat_width="48" c_constant_1="1" c_d_width="18" c_has_a="1" c_has_acin="0" c_has_acout="0" c_has_b="1" c_has_bcin="0" c_has_bcout="0" c_has_c="1" c_has_carrycascin="0" c_has_carrycascout="0" c_has_carryin="0" c_has_carryout="0" c_has_ce="0" c_has_cea="0" c_has_ceb="0" c_has_cec="0" c_has_ceconcat="0" c_has_ced="0" c_has_cem="0" c_has_cep="0" c_has_cesel="0" c_has_concat="0" c_has_d="0" c_has_indep_ce="0" c_has_indep_sclr="0" c_has_pcin="0" c_has_pcout="0" c_has_sclr="0" c_has_sclra="0" c_has_sclrb="0" c_has_sclrc="0" c_has_sclrconcat="0" c_has_sclrd="0" c_has_sclrm="0" c_has_sclrp="0" c_has_sclrsel="0" c_latency="128" c_model_type="0" c_opmodes="0000001100010000000" c_p_lsb="0" c_p_msb="47" c_reg_config="00000000000000000011000001000100" c_sel_width="0" stringID="NGDBUILD_CORE_PARAMETERS" value="dsp48a1_ip_mul_add"/>
+            </scope>
+          </section>
+        </section>
+      </section>
+    </task>
+  </application>
+
+</document>

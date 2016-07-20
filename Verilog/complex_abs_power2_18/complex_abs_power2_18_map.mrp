@@ -1,0 +1,746 @@
+Release 13.1 Map O.40d (nt)
+Xilinx Mapping Report File for Design 'complex_abs_power2_18'
+
+Design Information
+------------------
+Command Line   : map -filter iseconfig/filter.filter -intstyle ise -p
+xc6slx100t-fgg484-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication
+off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o
+complex_abs_power2_18_map.ncd complex_abs_power2_18.ngd
+complex_abs_power2_18.pcf 
+Target Device  : xc6slx100t
+Target Package : fgg484
+Target Speed   : -3
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Wed Oct 28 10:44:47 2015
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    0
+Slice Logic Utilization:
+  Number of Slice Registers:                     0 out of 126,576    0%
+  Number of Slice LUTs:                          0 out of  63,288    0%
+
+Slice Logic Distribution:
+  Number of occupied Slices:                     0 out of  15,822    0%
+  Number of LUT Flip Flop pairs used:            0
+
+IO Utilization:
+  Number of bonded IOBs:                        85 out of     296   28%
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         0 out of     268    0%
+  Number of RAMB8BWERs:                          0 out of     536    0%
+  Number of BUFIO2/BUFIO2_2CLKs:                 0 out of      32    0%
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             0 out of      32    0%
+  Number of BUFG/BUFGMUXs:                       1 out of      16    6%
+    Number used as BUFGs:                        1
+    Number used as BUFGMUX:                      0
+  Number of DCM/DCM_CLKGENs:                     0 out of      12    0%
+  Number of ILOGIC2/ISERDES2s:                   0 out of     506    0%
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:         0 out of     506    0%
+  Number of OLOGIC2/OSERDES2s:                   0 out of     506    0%
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHs:                               0 out of     384    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         0 out of       4    0%
+  Number of DSP48A1s:                            2 out of     180    1%
+  Number of GTPA1_DUALs:                         0 out of       2    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                0 out of       4    0%
+  Number of PCIE_A1s:                            0 out of       1    0%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            0 out of       6    0%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                1.27
+
+Peak Memory Usage:  321 MB
+Total REAL time to MAP completion:  34 secs 
+Total CPU time to MAP completion:   30 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network u1_dsp48a1_ip_mul/blk00000003/sig000000ca has no
+   load.
+INFO:LIT:395 - The above info message is repeated 135 more times for the
+   following (max. 5 shown):
+   u1_dsp48a1_ip_mul/blk00000003/sig000000c9,
+   u1_dsp48a1_ip_mul/blk00000003/sig00000069,
+   u1_dsp48a1_ip_mul/blk00000003/sig0000006a,
+   u1_dsp48a1_ip_mul/blk00000003/sig0000006b,
+   u1_dsp48a1_ip_mul/blk00000003/sig0000006c
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 1.140 Volts. (default - Range: 1.140 to
+   1.260 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   4 block(s) removed
+   4 block(s) optimized away
+ 232 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig000000ca" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig000000c9" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000069" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000006a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000006b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000006c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000006d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000006e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000006f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000070" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000071" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000072" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000073" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000074" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000075" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000076" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000077" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000078" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000079" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000007a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000007b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000007c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000007d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000007e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000007f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000080" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000081" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000082" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000083" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000084" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000085" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000086" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000087" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000088" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000089" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000008a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000008b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000008c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000008d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000008e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000008f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000090" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000091" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000092" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000093" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000094" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000095" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000096" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000097" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000098" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000001" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000002" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000003" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000004" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000005" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000006" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000007" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000008" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000009" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000000a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000000b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000000c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000000d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000000e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000000f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000010" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000011" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000012" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000013" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000014" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000015" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000016" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000017" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000018" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000019" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000001a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000001b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000001c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000001d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000001e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000001f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000020" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000021" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000022" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000023" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000024" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000025" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000026" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000027" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000028" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000029" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000002a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000002b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000002c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000002d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000002e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000002f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000030" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000056" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000057" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000058" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000059" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000005a" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000005b" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000005c" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000005d" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000005e" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig0000005f" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000060" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000061" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000062" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000063" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000064" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000065" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000066" is sourceless and has
+been removed.
+The signal "u1_dsp48a1_ip_mul/blk00000003/sig00000067" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000fa" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000f9" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000099" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000009a" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000009b" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000009c" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000009d" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000009e" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000009f" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a0" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a1" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a2" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a3" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a4" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a5" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a6" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a7" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a8" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000a9" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000aa" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000ab" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000ac" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000ad" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000ae" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000af" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b0" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b1" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b2" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b3" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b4" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b5" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b6" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b7" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b8" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000b9" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000ba" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000bb" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000bc" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000bd" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000be" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000bf" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c0" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c1" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c2" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c3" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c4" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c5" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c6" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c7" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig000000c8" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000001" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000002" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000003" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000004" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000005" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000006" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000007" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000008" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000009" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000000a" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000000b" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000000c" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000000d" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000000e" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000000f" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000010" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000011" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000012" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000013" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000014" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000015" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000016" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000017" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000018" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000019" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000001a" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000001b" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000001c" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000001d" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000001e" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000001f" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000020" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000021" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000022" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000023" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000024" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000025" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000026" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000027" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000028" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000029" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000002a" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000002b" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000002c" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000002d" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000002e" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000002f" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000030" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000086" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000087" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000088" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000089" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000008a" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000008b" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000008c" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000008d" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000008e" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig0000008f" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000090" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000091" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000092" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000093" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000094" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000095" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000096" is sourceless and has
+been removed.
+The signal "u2_dsp48a1_ip_mul_add/blk00000003/sig00000097" is sourceless and has
+been removed.
+Unused block "u1_dsp48a1_ip_mul/blk00000001" (ONE) removed.
+Unused block "u1_dsp48a1_ip_mul/blk00000002" (ZERO) removed.
+Unused block "u2_dsp48a1_ip_mul_add/blk00000001" (ONE) removed.
+Unused block "u2_dsp48a1_ip_mul_add/blk00000002" (ZERO) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		u1_dsp48a1_ip_mul/blk00000003/blk00000004
+VCC 		u1_dsp48a1_ip_mul/blk00000003/blk00000005
+GND 		u2_dsp48a1_ip_mul_add/blk00000003/blk00000004
+VCC 		u2_dsp48a1_ip_mul_add/blk00000003/blk00000005
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| i_clk                              | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<0>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<1>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<2>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<3>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<4>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<5>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<6>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<7>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<8>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<9>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<10>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<11>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<12>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<13>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<14>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<15>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<16>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_i<17>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<0>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<1>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<2>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<3>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<4>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<5>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<6>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<7>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<8>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<9>                             | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<10>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<11>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<12>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<13>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<14>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<15>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<16>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| i_r<17>                            | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
+| o_p<0>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<1>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<2>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<3>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<4>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<5>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<6>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<7>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<8>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<9>                             | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<10>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<11>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<12>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<13>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<14>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<15>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<16>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<17>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<18>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<19>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<20>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<21>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<22>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<23>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<24>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<25>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<26>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<27>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<28>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<29>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<30>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<31>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<32>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<33>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<34>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<35>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<36>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<37>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<38>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<39>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<40>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<41>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<42>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<43>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<44>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<45>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<46>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| o_p<47>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="complex_abs_power2_18.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="complex_abs_power2_18.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="complex_abs_power2_18.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="complex_abs_power2_18.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="complex_abs_power2_18.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="complex_abs_power2_18.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="complex_abs_power2_18.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="complex_abs_power2_18.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="complex_abs_power2_18.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="complex_abs_power2_18.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="complex_abs_power2_18.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="complex_abs_power2_18.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="complex_abs_power2_18.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="complex_abs_power2_18.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="complex_abs_power2_18.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="complex_abs_power2_18.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="complex_abs_power2_18.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="complex_abs_power2_18.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="complex_abs_power2_18.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="complex_abs_power2_18.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="complex_abs_power2_18_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="complex_abs_power2_18_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="complex_abs_power2_18_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="complex_abs_power2_18_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="complex_abs_power2_18_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="complex_abs_power2_18_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="complex_abs_power2_18_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="complex_abs_power2_18_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="complex_abs_power2_18_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="complex_abs_power2_18_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="complex_abs_power2_18_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="complex_abs_power2_18_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="complex_abs_power2_18_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="complex_abs_power2_18_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="complex_abs_power2_18_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ip/dsp48a1_ip_mul_add_readme.txt"/>
+    <file xil_pn:fileType="FILE_USERDOC" xil_pn:name="ip/dsp48a1_ip_mul_readme.txt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1446000271" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1446000271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000271" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6778625684079083512" xil_pn:start_ts="1446000271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000271" xil_pn:in_ck="-9058690544042788420" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8886576912237029555" xil_pn:start_ts="1446000271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ip/dsp48a1_ip_mul.ngc"/>
+      <outfile xil_pn:name="ip/dsp48a1_ip_mul.v"/>
+      <outfile xil_pn:name="ip/dsp48a1_ip_mul_add.ngc"/>
+      <outfile xil_pn:name="ip/dsp48a1_ip_mul_add.v"/>
+    </transform>
+    <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000271" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7843773953165825354" xil_pn:start_ts="1446000271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000271" xil_pn:in_ck="3514905148233614362" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="116432373134593904" xil_pn:start_ts="1446000271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000271" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-5872429845065801603" xil_pn:start_ts="1446000271">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1449660169" xil_pn:in_ck="6081371364097545013" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="4809381524725226402" xil_pn:start_ts="1449660162">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="complex_abs_power2_18.lso"/>
+      <outfile xil_pn:name="complex_abs_power2_18.ngc"/>
+      <outfile xil_pn:name="complex_abs_power2_18.ngr"/>
+      <outfile xil_pn:name="complex_abs_power2_18.prj"/>
+      <outfile xil_pn:name="complex_abs_power2_18.stx"/>
+      <outfile xil_pn:name="complex_abs_power2_18.syr"/>
+      <outfile xil_pn:name="complex_abs_power2_18.xst"/>
+      <outfile xil_pn:name="complex_abs_power2_18_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000276" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-3191013552783170827" xil_pn:start_ts="1446000276">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000285" xil_pn:in_ck="3018122370913280977" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="6562177819333714740" xil_pn:start_ts="1446000276">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="complex_abs_power2_18.bld"/>
+      <outfile xil_pn:name="complex_abs_power2_18.ngd"/>
+      <outfile xil_pn:name="complex_abs_power2_18_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000321" xil_pn:in_ck="8289648353915773626" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="460954389918886907" xil_pn:start_ts="1446000285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="complex_abs_power2_18.pcf"/>
+      <outfile xil_pn:name="complex_abs_power2_18_map.map"/>
+      <outfile xil_pn:name="complex_abs_power2_18_map.mrp"/>
+      <outfile xil_pn:name="complex_abs_power2_18_map.ncd"/>
+      <outfile xil_pn:name="complex_abs_power2_18_map.ngm"/>
+      <outfile xil_pn:name="complex_abs_power2_18_map.xrpt"/>
+      <outfile xil_pn:name="complex_abs_power2_18_summary.xml"/>
+      <outfile xil_pn:name="complex_abs_power2_18_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000365" xil_pn:in_ck="7852836056205934291" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-1898002516160862001" xil_pn:start_ts="1446000321">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="complex_abs_power2_18.ncd"/>
+      <outfile xil_pn:name="complex_abs_power2_18.pad"/>
+      <outfile xil_pn:name="complex_abs_power2_18.par"/>
+      <outfile xil_pn:name="complex_abs_power2_18.ptwx"/>
+      <outfile xil_pn:name="complex_abs_power2_18.unroutes"/>
+      <outfile xil_pn:name="complex_abs_power2_18.xpi"/>
+      <outfile xil_pn:name="complex_abs_power2_18_pad.csv"/>
+      <outfile xil_pn:name="complex_abs_power2_18_pad.txt"/>
+      <outfile xil_pn:name="complex_abs_power2_18_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1446000365" xil_pn:in_ck="8289648353915773494" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1446000353">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="complex_abs_power2_18.twr"/>
+      <outfile xil_pn:name="complex_abs_power2_18.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

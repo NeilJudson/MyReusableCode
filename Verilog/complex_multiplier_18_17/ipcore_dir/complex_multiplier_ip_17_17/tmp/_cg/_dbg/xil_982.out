@@ -1,0 +1,15 @@
+SET_PARAMETER roundmode Truncate
+SET_PARAMETER optimizegoal Resources
+SET_PARAMETER clockenable false
+SET_PARAMETER multtype Use_Mults
+SET_PARAMETER bportwidth 17
+SET_PARAMETER outputwidthlow 0
+SET_PARAMETER sclrcepriority SCLR_overrides_CE
+SET_PARAMETER latency 6
+SET_PARAMETER component_name complex_multiplier_ip_17_17
+SET_PARAMETER aportwidth 17
+SET_PARAMETER outputwidthhigh 33
+SET_PARAMETER syncclear false
+SET_ERROR_CODE 2
+SET_ERROR_MSG  CANCEL: Customization cancelled.
+SET_ERROR_TEXT Finished initializing IP model.	

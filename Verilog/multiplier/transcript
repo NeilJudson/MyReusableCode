@@ -1,0 +1,157 @@
+# Reading D:/modeltech_6.5f/tcl/vsim/pref.tcl 
+# //  ModelSim SE 6.5f Jun 16 2010 
+# //
+# //  Copyright 1991-2010 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do {multiplier_35.fdo} 
+# Model Technology ModelSim SE vlog 6.5f Compiler 2010.06 Jun 16 2010
+# -- Compiling module dsp48a1_ip_18
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	dsp48a1_ip_18
+# 	glbl
+# Model Technology ModelSim SE vlog 6.5f Compiler 2010.06 Jun 16 2010
+# -- Compiling module multiplier_35
+# 
+# Top level modules:
+# 	multiplier_35
+# Model Technology ModelSim SE vlog 6.5f Compiler 2010.06 Jun 16 2010
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L xilinxcorelib_ver -L unisims_ver -L secureip -lib work -voptargs=\"+acc\" -t 1ps work.multiplier_35 glbl 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.multiplier_35(fast)
+# Loading work.dsp48a1_ip_18(fast)
+# Loading unisims_ver.VCC(fast)
+# Loading unisims_ver.GND(fast)
+# Loading unisims_ver.DSP48A1(fast)
+# Loading work.glbl(fast)
+# ** Warning: (vsim-3015) multiplier_35.v(94): [PCDPC] - Port size (36 or 36) does not match connection size (35) for port 'p'. The port definition is at: ipcore_dir/dsp48a1_ip_18.v(37).
+#         Region: /multiplier_35/u_dsp48a1_ip_18
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body
+force -freeze sim:/multiplier_35/i_rst 1 0
+run
+run
+force -freeze sim:/multiplier_35/i_rst 0 0
+run
+run
+force -freeze sim:/multiplier_35/i_clk 1 0, 0 {3125 ps} -r 6250
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/multiplier_35/i_en 1 0
+force -freeze sim:/multiplier_35/i_a -35'd6 0
+force -freeze sim:/multiplier_35/i_b -35'd10230 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/multiplier_35/i_en 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/multiplier_35/i_en 1 0
+run
+force -freeze sim:/multiplier_35/i_en 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/multiplier_35/i_en 1 0
+force -freeze sim:/multiplier_35/i_a 35'd10 0
+run
+force -freeze sim:/multiplier_35/i_en 0 0
+run
+run
+run
+run
+force -freeze sim:/multiplier_35/i_en 1 0
+force -freeze sim:/multiplier_35/i_b -35'd1 0
+run
+force -freeze sim:/multiplier_35/i_en 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/multiplier_35/i_en 1 0
+force -freeze sim:/multiplier_35/i_a 35'd123456789 0
+run
+force -freeze sim:/multiplier_35/i_en 0 0
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

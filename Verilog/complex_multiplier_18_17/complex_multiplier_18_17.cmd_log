@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "F:/jiaweiwei/Project/complex_multiplier_18_17/complex_multiplier_18_17.xst" -ofn "F:/jiaweiwei/Project/complex_multiplier_18_17/complex_multiplier_18_17.syr" 

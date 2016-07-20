@@ -1,0 +1,52 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\jiaweiwei\Project\multiplier
+T_opt
+V`]mYk]C:e<c9Re2WZlXEQ3
+04 13 4 work multiplier_35 fast 0
+04 4 4 work glbl fast 0
+Z1 =1-1c6f650361f6-564591ae-0-9f4
+Z2 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L secureip +acc
+Z3 n@_opt
+Z4 OE;O;6.5f;42
+vdsp48a1_ip_18
+Z5 IL7VmcW`Oo@[SLVN<KcQz_1
+Z6 VSS^h2YYZ4<h?mngImae_O0
+Z7 w1446886075
+Z8 8ipcore_dir/dsp48a1_ip_18.v
+Z9 Fipcore_dir/dsp48a1_ip_18.v
+L0 36
+Z10 OE;L;6.5f;42
+r1
+31
+Z11 o-L mtiAvm -L mtiOvm -L mtiUPF
+Z12 !s100 oA1B=kPZ:enmnLAQZ[nzE1
+!s85 0
+vglbl
+Z13 I50KRYJEd>O4zk>d5_9h@h2
+Z14 VnN]4Gon>inod6>M^M2[SV1
+Z15 w1296768068
+Z16 8D:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v
+Z17 FD:/Xilinx/13.1/ISE_DS/ISE//verilog/src/glbl.v
+L0 5
+R10
+r1
+31
+R11
+Z18 !s100 4=LmVFjWGlXARKf5L_9V<3
+!s85 0
+vmultiplier_35
+Z19 IHEW1k<[I8kML`Wic8jnz33
+Z20 V>@Po93kDa9jn]mMG5lhn13
+Z21 w1447399705
+Z22 8multiplier_35.v
+Z23 Fmultiplier_35.v
+L0 21
+R10
+r1
+31
+R11
+Z24 !s100 E4?C75FdFf^BfP94g[]mf0
+!s85 0
