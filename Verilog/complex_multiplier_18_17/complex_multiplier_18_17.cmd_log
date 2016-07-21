@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "F:/jiaweiwei/Project/complex_multiplier_18_17/complex_multiplier_18_17.xst" -ofn "F:/jiaweiwei/Project/complex_multiplier_18_17/complex_multiplier_18_17.syr" 
+xst -intstyle ise -ifn "D:/Verilog/complex_multiplier_18_17/complex_multiplier_18_17.xst" -ofn "D:/Verilog/complex_multiplier_18_17/complex_multiplier_18_17.syr" 

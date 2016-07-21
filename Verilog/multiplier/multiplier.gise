@@ -22,7 +22,36 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="multiplier.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="ip/dsp48a1_ip_mul.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ip/dsp48a1_ip_mul.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ip/dsp48a1_ip_mul.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VERILOG" xil_pn:name="ip/dsp48a1_ip_mul.v" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VEO" xil_pn:name="ip/dsp48a1_ip_mul.veo" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="ip/dsp48a1_ip_mul.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="ip/dsp48a1_ip_mul.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_1dsp_69_18.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplier_1dsp_69_18.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="multiplier_1dsp_69_18.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_2dsp_52.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplier_2dsp_52.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="multiplier_2dsp_52.xst"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="multiplier_35.cmd_log"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_MODELSIM_CMD" xil_pn:name="multiplier_35.fdo"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="multiplier_35.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="multiplier_35.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="multiplier_35.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_35.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplier_35.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="multiplier_35.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="multiplier_35.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="multiplier_35_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="multiplier_35_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="multiplier_52.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="multiplier_52.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="multiplier_52.xst"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
@@ -36,6 +65,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
@@ -51,6 +81,7 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
@@ -64,6 +95,7 @@
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
@@ -78,9 +110,53 @@
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
+    <transform xil_pn:end_ts="1469072675" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469072675" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6940017926372465597" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469072675" xil_pn:in_ck="1974868584099078602" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1025627153854692878" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ip/dsp48a1_ip_mul.ngc"/>
+      <outfile xil_pn:name="ip/dsp48a1_ip_mul.v"/>
+    </transform>
     <transform xil_pn:name="TRAN_SubProjectAbstractToPreProxy">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469072675" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="5775615277969069957" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469072675" xil_pn:in_ck="-8616313019568605831" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="116432373134593904" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469072675" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8196913676642235432" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1469072685" xil_pn:in_ck="-684113305938087678" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="1813461960078167453" xil_pn:start_ts="1469072675">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="multiplier_35.lso"/>
+      <outfile xil_pn:name="multiplier_35.ngc"/>
+      <outfile xil_pn:name="multiplier_35.ngr"/>
+      <outfile xil_pn:name="multiplier_35.prj"/>
+      <outfile xil_pn:name="multiplier_35.stx"/>
+      <outfile xil_pn:name="multiplier_35.syr"/>
+      <outfile xil_pn:name="multiplier_35.xst"/>
+      <outfile xil_pn:name="multiplier_35_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
     </transform>
   </transforms>
 

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-12-09T19:22:31</DateModified>
+  <DateModified>2016-07-21T11:39:36</DateModified>
   <ModuleName>complex_abs_power2_18</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>F:/jiaweiwei/Project/complex_abs_power2_18/iseconfig/complex_abs_power2_18.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>F:/jiaweiwei/Project/complex_abs_power2_18\</ImplementationReportsDirectory>
+  <SavedFilePath>D:/Verilog/complex_abs_power2_18/iseconfig/complex_abs_power2_18.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>D:/Verilog/complex_abs_power2_18\</ImplementationReportsDirectory>
   <DateInitialized>2015-10-28T10:44:15</DateInitialized>
   <EnableMessageFiltering>true</EnableMessageFiltering>
  </header>

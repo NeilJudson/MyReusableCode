@@ -15,30 +15,30 @@
   <version xil_pn:ise_version="13.1" xil_pn:schema_version="2"/>
 
   <files>
-    <file xil_pn:name="complex_multiplier_18_17.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="code/complex_multiplier_18_17.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="3"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="3"/>
     </file>
-    <file xil_pn:name="shift_register.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="code/shift_register.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="1"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
-    <file xil_pn:name="test_complex_multiplier_18_17.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="code/test_complex_multiplier_18_17.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="4"/>
       <association xil_pn:name="PostMapSimulation" xil_pn:seqID="59"/>
       <association xil_pn:name="PostRouteSimulation" xil_pn:seqID="59"/>
       <association xil_pn:name="PostTranslateSimulation" xil_pn:seqID="59"/>
     </file>
-    <file xil_pn:name="shift_register_gai.v" xil_pn:type="FILE_VERILOG">
+    <file xil_pn:name="code/shift_register_gai.v" xil_pn:type="FILE_VERILOG">
       <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="62"/>
+      <association xil_pn:name="Implementation" xil_pn:seqID="2"/>
+    </file>
+    <file xil_pn:name="ip/complex_multiplier_ip_17_17.xco" xil_pn:type="FILE_COREGEN">
+      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="28"/>
       <association xil_pn:name="Implementation" xil_pn:seqID="1"/>
     </file>
-    <file xil_pn:name="ipcore_dir/complex_multiplier_ip_17_17/complex_multiplier_ip_17_17.xco" xil_pn:type="FILE_COREGEN">
-      <association xil_pn:name="BehavioralSimulation" xil_pn:seqID="28"/>
-      <association xil_pn:name="Implementation" xil_pn:seqID="28"/>
-    </file>
-    <file xil_pn:name="ipcore_dir/complex_multiplier_ip_17_17/complex_multiplier_ip_17_17.xise" xil_pn:type="FILE_COREGENISE">
-      <association xil_pn:name="Implementation" xil_pn:seqID="29"/>
+    <file xil_pn:name="ip/complex_multiplier_ip_17_17.xise" xil_pn:type="FILE_ISE">
+      <association xil_pn:name="Implementation" xil_pn:seqID="0"/>
     </file>
   </files>
 
@@ -154,7 +154,7 @@
     <property xil_pn:name="Ignore User Timing Constraints Map" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Ignore User Timing Constraints Par" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Implementation Top" xil_pn:value="Module|complex_multiplier_18_17" xil_pn:valueState="non-default"/>
-    <property xil_pn:name="Implementation Top File" xil_pn:value="complex_multiplier_18_17.v" xil_pn:valueState="non-default"/>
+    <property xil_pn:name="Implementation Top File" xil_pn:value="code/complex_multiplier_18_17.v" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Implementation Top Instance Path" xil_pn:value="/complex_multiplier_18_17" xil_pn:valueState="non-default"/>
     <property xil_pn:name="Include 'uselib Directive in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>
     <property xil_pn:name="Include SIMPRIM Models in Verilog File" xil_pn:value="false" xil_pn:valueState="default"/>

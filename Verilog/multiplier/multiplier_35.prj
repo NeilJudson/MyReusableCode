@@ -1,0 +1,2 @@
+verilog work "ip/dsp48a1_ip_mul.v"
+verilog work "code/multiplier_35.v"

@@ -1,16 +1,16 @@
-Release 13.1 - xst O.40d (nt)
+Release 13.1 - xst O.40d (nt64)
 Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> Reading design: complex_multiplier_18_17.prj
 
@@ -101,7 +101,7 @@ Auto BRAM Packing                  : NO
 Slice Utilization Ratio Delta      : 5
 
 ---- Other Options
-Cores Search Directories           : {"ipcore_dir"  }
+Cores Search Directories           : {"ip"  }
 
 =========================================================================
 
@@ -109,11 +109,11 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file \"F:\jiaweiwei\Project\complex_multiplier_18_17\ipcore_dir\complex_multiplier_17_17.v\" into library work
-Parsing module <complex_multiplier_17_17>.
-Analyzing Verilog file \"F:\jiaweiwei\Project\complex_multiplier_18_17\shift_register_gai.v\" into library work
+Analyzing Verilog file \"D:\Verilog\complex_multiplier_18_17\ip\complex_multiplier_ip_17_17.v\" into library work
+Parsing module <complex_multiplier_ip_17_17>.
+Analyzing Verilog file \"D:\Verilog\complex_multiplier_18_17\code\shift_register_gai.v\" into library work
 Parsing module <shift_register_gai>.
-Analyzing Verilog file \"F:\jiaweiwei\Project\complex_multiplier_18_17\complex_multiplier_18_17.v\" into library work
+Analyzing Verilog file \"D:\Verilog\complex_multiplier_18_17\code\complex_multiplier_18_17.v\" into library work
 Parsing module <complex_multiplier_18_17>.
 
 =========================================================================
@@ -124,14 +124,14 @@ Elaborating module <complex_multiplier_18_17>.
 
 Elaborating module <shift_register_gai(DATA_WIDTH=18,SHIFT_TABS=4)>.
 
-Elaborating module <complex_multiplier_17_17>.
+Elaborating module <complex_multiplier_ip_17_17>.
 
 =========================================================================
 *                           HDL Synthesis                               *
 =========================================================================
 
 Synthesizing Unit <complex_multiplier_18_17>.
-    Related source file is "f:/jiaweiwei/project/complex_multiplier_18_17/complex_multiplier_18_17.v".
+    Related source file is "d:/verilog/complex_multiplier_18_17/code/complex_multiplier_18_17.v".
     Found 18-bit register for signal <c2>.
     Found 18-bit register for signal <d1>.
     Found 18-bit register for signal <d2>.
@@ -150,7 +150,7 @@ Synthesizing Unit <complex_multiplier_18_17>.
 Unit <complex_multiplier_18_17> synthesized.
 
 Synthesizing Unit <shift_register_gai>.
-    Related source file is "f:/jiaweiwei/project/complex_multiplier_18_17/shift_register_gai.v".
+    Related source file is "d:/verilog/complex_multiplier_18_17/code/shift_register_gai.v".
         SHIFT_TABS = 4
         DATA_WIDTH = 18
     Found 1-bit register for signal <shift_reg<0><2>>.
@@ -248,8 +248,8 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-Reading core <ipcore_dir/complex_multiplier_17_17.ngc>.
-Loading core <complex_multiplier_17_17> for timing and area information for instance <u3_complex_multiplier_ip_17_17>.
+Reading core <ip/complex_multiplier_ip_17_17.ngc>.
+Loading core <complex_multiplier_ip_17_17> for timing and area information for instance <u3_complex_multiplier_ip_17_17>.
 
 =========================================================================
 Advanced HDL Synthesis Report
@@ -554,12 +554,12 @@ i_clk          |    3.047|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 5.00 secs
-Total CPU time to Xst completion: 5.49 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.04 secs
  
 --> 
 
-Total memory usage is 135380 kilobytes
+Total memory usage is 245496 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

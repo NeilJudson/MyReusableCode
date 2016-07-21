@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<document OS="nt" product="ISE" version="13.1">
+<document OS="nt64" product="ISE" version="13.1">
 
   <!--The data in this file is primarily intended for consumption by Xilinx tools.
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Xst" timeStamp="Wed Dec 09 19:22:44 2015">
+  <application stringID="Xst" timeStamp="Thu Jul 21 11:40:30 2016">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
         <column stringID="value"/>
         <row stringID="row" value="0">
           <item stringID="variable" value="Path"/>
-          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\ISE\\lib\nt;D:\Xilinx\13.1\ISE_DS\ISE\\bin\nt;D:\Xilinx\13.1\ISE_DS\PlanAhead\bin;D:\Xilinx\13.1\ISE_DS\ISE\bin\nt;D:\Xilinx\13.1\ISE_DS\ISE\lib\nt;D:\Xilinx\13.1\ISE_DS\EDK\bin\nt;D:\Xilinx\13.1\ISE_DS\EDK\lib\nt;D:\Xilinx\13.1\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\Xilinx\13.1\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\Xilinx\13.1\ISE_DS\EDK\gnuwin\bin;D:\Xilinx\13.1\ISE_DS\common\bin\nt;D:\Xilinx\13.1\ISE_DS\common\lib\nt;C:\Program Files\STMicroelectronics\st_toolset\asm;C:/Program Files/Texas Instruments/xdctools_3_22_04_46;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;D:\cand\candence\SPB_16.3\tools\bin;D:\cand\candence\SPB_16.3\tools\libutil\bin;D:\cand\candence\SPB_16.3\tools\fet\bin;D:\cand\candence\SPB_16.3\tools\pcb\bin;D:\cand\candence\SPB_16.3\tools\specctra\bin;D:\cand\candence\SPB_16.3\tools\PSpice;D:\cand\candence\SPB_16.3\tools\PSpice\Library;D:\cand\candence\SPB_16.3\tools\Capture;D:\cand\candence\SPB_16.3\OpenAccess\bin\win32\opt;C:\Program Files\Common Files\Acronis\SnapAPI\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\MATLAB\R2009b\runtime\win32;C:\Program Files\MATLAB\R2009b\bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files\Microsoft Visual Studio 10.0\Common7\Tools;C:\Program Files\Microsoft Visual Studio 10.0\Common7\IDE;C:\Program Files\COSMIC\CXSTM8_32K;D:\modeltech_6.5f\win32;C:\Program Files\IDM Computer Solutions\UEStudio '06"/>
+          <item stringID="value" value="D:\jiaweiwei\Xilinx\13.1\ISE_DS\ISE\\lib\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\ISE\\bin\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\PlanAhead\bin;D:\jiaweiwei\Xilinx\13.1\ISE_DS\ISE\bin\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\ISE\lib\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\EDK\bin\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\EDK\lib\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\EDK\gnu\microblaze\nt64\bin;D:\jiaweiwei\Xilinx\13.1\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin;D:\jiaweiwei\Xilinx\13.1\ISE_DS\EDK\gnuwin\bin;D:\jiaweiwei\Xilinx\13.1\ISE_DS\common\bin\nt64;D:\jiaweiwei\Xilinx\13.1\ISE_DS\common\lib\nt64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;D:\jiaweiwei\MATLAB\R2011a\runtime\win64;D:\jiaweiwei\MATLAB\R2011a\bin;D:\jiaweiwei\Java\jdk1.8.0_51\bin;D:\jiaweiwei\Portable Python 2.7.6.1\App;D:\jiaweiwei\Lua-5.1\bin;F:\jiaweiwei\make;d:\jiaweiwei\modeltech64_10.4\win64"/>
         </row>
         <row stringID="row" value="1">
           <item stringID="variable" value="PATHEXT"/>
-          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH"/>
+          <item stringID="value" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
         </row>
         <row stringID="row" value="2">
           <item stringID="variable" value="XILINX"/>
-          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\ISE\"/>
+          <item stringID="value" value="D:\jiaweiwei\Xilinx\13.1\ISE_DS\ISE\"/>
         </row>
         <row stringID="row" value="3">
-          <item stringID="variable" value="XILINX_DSP"/>
-          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\ISE"/>
+          <item stringID="variable" value="XILINXD_LICENSE_FILE"/>
+          <item stringID="value" value="D:\jiaweiwei\Xilinx\13.1\license12x_avnet.lic"/>
         </row>
         <row stringID="row" value="4">
-          <item stringID="variable" value="XILINX_EDK"/>
-          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\EDK"/>
+          <item stringID="variable" value="XILINX_DSP"/>
+          <item stringID="value" value="D:\jiaweiwei\Xilinx\13.1\ISE_DS\ISE"/>
         </row>
         <row stringID="row" value="5">
+          <item stringID="variable" value="XILINX_EDK"/>
+          <item stringID="value" value="D:\jiaweiwei\Xilinx\13.1\ISE_DS\EDK"/>
+        </row>
+        <row stringID="row" value="6">
           <item stringID="variable" value="XILINX_PLANAHEAD"/>
-          <item stringID="value" value="D:\Xilinx\13.1\ISE_DS\PlanAhead"/>
+          <item stringID="value" value="D:\jiaweiwei\Xilinx\13.1\ISE_DS\PlanAhead"/>
         </row>
       </table>
       <item stringID="User_EnvOs" value="OS Information">
-        <item stringID="User_EnvOsname" value="Microsoft Windows XP Professional"/>
-        <item stringID="User_EnvOsrelease" value="Service Pack 3  (build 2600)"/>
+        <item stringID="User_EnvOsname" value="Microsoft Windows 7 , 64-bit"/>
+        <item stringID="User_EnvOsrelease" value="Service Pack 1  (build 7601)"/>
       </item>
-      <item stringID="User_EnvHost" value="PC-PP"/>
+      <item stringID="User_EnvHost" value="FUTURE3"/>
       <table stringID="User_EnvCpu">
         <column stringID="arch"/>
         <column stringID="speed"/>
         <row stringID="row" value="0">
-          <item stringID="arch" value="Intel(R) Core(TM)2 Quad CPU    Q9500  @ 2.83GHz"/>
-          <item stringID="speed" value="2826 MHz"/>
+          <item stringID="arch" value="Intel(R) Core(TM) i5-3437U CPU @ 1.90GHz"/>
+          <item stringID="speed" value="2394 MHz"/>
         </row>
       </table>
     </section>

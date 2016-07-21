@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: 
+// Engineer: Neil Judson
 // 
 // Create Date:    16:04:33 10/27/2015 
 // Design Name: 
@@ -38,6 +38,7 @@ module complex_abs_power2_18(
 		.b		(i_r	),
 		.p		(u1_p	)
 		);
+		
 	dsp48a1_ip_mul_add u2_dsp48a1_ip_mul_add(	// jiaweiwei: 3dly
 		.clk	(i_clk	),
 		.a		(i_i	),

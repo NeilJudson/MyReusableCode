@@ -1,0 +1,1 @@
+xst -intstyle ise -filter "D:/Verilog/multiplier/iseconfig/filter.filter" -ifn "D:/Verilog/multiplier/multiplier_35.xst" -ofn "D:/Verilog/multiplier/multiplier_35.syr" 

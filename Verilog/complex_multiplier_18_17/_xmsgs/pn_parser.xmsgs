@@ -8,14 +8,5 @@
 <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/jiaweiwei/Project/complex_multiplier_18_17/complex_multiplier_18_17.v\&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/jiaweiwei/Project/complex_multiplier_18_17/shift_register.v\&quot; into library work</arg>
-</msg>
-
-<msg type="info" file="ProjectMgmt" num="1693" ><arg fmt="%s" index="1">Analyzing Verilog file \&quot;F:/jiaweiwei/Project/complex_multiplier_18_17/shift_register_gai.v\&quot; into library work</arg>
-</msg>
-
 </messages>
 
