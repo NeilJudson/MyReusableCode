@@ -5,7 +5,7 @@
 // 
 // Create Date:    18:39:45 11/04/2015 
 // Design Name: 
-// Module Name:    multiplier_35 
+// Module Name:    multiplier_1dap_35_35 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module multiplier_35(
+module multiplier_1dap_35_35(
     i_clk	,
 	i_rst	,
 	i_en	,

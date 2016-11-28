@@ -36,7 +36,7 @@ module multiplier_1dsp_69_18(
     input		signed		[17:0]	i_b		;
 	
 	output							o_in_en	;
-    output		signed		[85:0]	o_c		; // jiaweiwei: 9dly
+    output		signed		[85:0]	o_c		; // 9dly
 	output							o_c_en	;
 	
 	reg						[8:0]	en_buf	;
@@ -52,7 +52,7 @@ module multiplier_1dsp_69_18(
 	reg			signed		[85:0]	c_acc	;
 	// reg			signed		[69:0]	c_acc	;
 	
-	// jiaweiwei: 数据输入标志buf
+	// 数据输入标志buf
 	always @(posedge i_clk or posedge i_rst)
 		begin
 			if(i_rst == 1'b1)
@@ -68,7 +68,7 @@ module multiplier_1dsp_69_18(
 		begin
 			if(i_en == 1'b1)
 				begin
-					a_buf <= i_a; // jiaweiwei: 1dly
+					a_buf <= i_a; // 1dly
 					b_buf <= i_b;
 				end
 			else
@@ -83,7 +83,7 @@ module multiplier_1dsp_69_18(
 			case({en_buf[3:0]})
 				4'd1:
 					begin
-						u_a <= {a_buf[68:51]}; // jiaweiwei: 1dly
+						u_a <= {a_buf[68:51]}; // 1dly
 						u_b <= b_buf;
 					end
 				4'd2:
@@ -113,10 +113,10 @@ module multiplier_1dsp_69_18(
 		.clk(i_clk),
 		.a	(u_a),
 		.b	(u_b),
-		.p	(u_p) // jiaweiwei: 2dly
+		.p	(u_p) // 2dly
 		);
 	
-	// jiaweiwei: 各乘积扩大对应2^n倍
+	// 各乘积扩大对应2^n倍
 	always @(posedge i_clk)
 		begin
 			case(en_buf[6:3])
@@ -128,7 +128,7 @@ module multiplier_1dsp_69_18(
 			endcase
 		end
 	
-	// jiaweiwei: 累加
+	// 累加
 	always @(posedge i_clk)
 		begin
 			// if(en_buf[3] == 1'b1)
@@ -147,7 +147,7 @@ module multiplier_1dsp_69_18(
 				end
 		end
 
-	// jiaweiwei: 输出
+	// 输出
 	assign o_in_en = en_buf[4];
 	assign o_c = c_acc;
 	// assign o_c = {c_acc,c_in_17};

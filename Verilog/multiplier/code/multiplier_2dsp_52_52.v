@@ -5,7 +5,7 @@
 // 
 // Create Date:    15:59:59 11/15/2015 
 // Design Name: 
-// Module Name:    multiplier_2dsp_52 
+// Module Name:    multiplier_2dsp_52_52 
 // Project Name: 
 // Target Devices: 
 // Tool versions: 
@@ -18,7 +18,7 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module multiplier_2dsp_52(
+module multiplier_2dsp_52_52(
     i_clk	,
 	i_rst	,
 	i_en	,
@@ -56,7 +56,7 @@ module multiplier_2dsp_52(
 	reg			signed		[102:0]	c_acc	;
 	// reg			signed		[85:0]	c_acc	;
 
-	// jiaweiwei: 数据输入标志buf
+	// 数据输入标志buf
 	always @(posedge i_clk or posedge i_rst)
 		begin
 			if(i_rst == 1'b1)
@@ -72,7 +72,7 @@ module multiplier_2dsp_52(
 		begin
 			if(i_en == 1'b1)
 				begin
-					a_buf <= i_a; // jiaweiwei: 1dly
+					a_buf <= i_a; // 1dly
 					b_buf <= i_b;
 				end
 			else
@@ -87,7 +87,7 @@ module multiplier_2dsp_52(
 			case({en_buf[3:0]})
 				4'd1:
 					begin
-						u1_a <= {a_buf[51:34]}; // jiaweiwei: 1dly
+						u1_a <= {a_buf[51:34]}; // 1dly
 						u1_b <= {b_buf[51:34]};
 					end
 				4'd2:
@@ -153,17 +153,17 @@ module multiplier_2dsp_52(
 		.clk(i_clk),
 		.a	(u1_a),
 		.b	(u1_b),
-		.p	(u1_p) // jiaweiwei: 2dly
+		.p	(u1_p) // 2dly
 		);
 
 	dsp48a1_ip_mul u2_dsp48a1_ip_mul(
 		.clk(i_clk),
 		.a	(u2_a),
 		.b	(u2_b),
-		.p	(u2_p) // jiaweiwei: 2dly
+		.p	(u2_p) // 2dly
 		);
 		
-	// jiaweiwei: 各乘积扩大对应2^n倍
+	// 各乘积扩大对应2^n倍
 	always @(posedge i_clk)
 		begin
 			case(en_buf[7:3])
@@ -176,7 +176,7 @@ module multiplier_2dsp_52(
 			endcase
 		end
 	
-	// jiaweiwei: 累加
+	// 累加
 	always @(posedge i_clk)
 		begin
 			// if(en_buf[3] == 1'b1)
@@ -195,7 +195,7 @@ module multiplier_2dsp_52(
 				end
 		end
 
-	// jiaweiwei: 输出
+	// 输出
 	assign o_in_en = en_buf[5];
 	// assign o_c = {c_acc,c_in_17};
 	assign o_c = c_acc;
