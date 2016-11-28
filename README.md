@@ -26,6 +26,14 @@ My reusable code<br>
 * bubbleSort
 
 #Verilog
-* complex_abs_power2_18
 * complex_multiplier_17_18
-* multiplier
+
+##complex_abs_power2
+* complex_abs_power2_18
+* complex_abs_power2_42
+
+##multiplier
+* multiplier_1dsp_69_18
+* multiplier_2dsp_52
+* multiplier_35
+* multipler_52
