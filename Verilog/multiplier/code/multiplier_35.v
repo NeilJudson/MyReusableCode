@@ -31,12 +31,12 @@ module multiplier_35(
 	input							i_clk	;
 	input							i_rst	;
 	
-	input							i_en	; // jiaweiwei: 4个工作周期内只能1个数据
+	input							i_en	; // 4个工作周期内只能1个数据
     input		signed		[34:0]	i_a		;
     input		signed		[34:0]	i_b		;
 	
-	// output							o_in_en	; // jiaweiwei: i_en的4dly
-    output		signed		[68:0]	o_c		; // jiaweiwei: 8dly
+	// output							o_in_en	; // i_en的4dly
+    output		signed		[68:0]	o_c		; // 8dly
 	output							o_c_en	;
 	
 	reg						[7:0]	en_buf	;
@@ -53,7 +53,7 @@ module multiplier_35(
 	// reg			signed		[51:0]	c_acc	;
 	reg			signed		[68:0]	c_acc	;
 	
-	// jiaweiwei: 数据输入标志buf
+	// 数据输入标志buf
 	always @(posedge i_clk or posedge i_rst)
 		begin
 			if(i_rst == 1'b1)
@@ -65,7 +65,7 @@ module multiplier_35(
 					en_buf <= {en_buf[6:0],1'b0};
 		end
 	
-	// jiaweiwei: dsp输入序列
+	// dsp输入序列
 	always @(posedge i_clk or posedge i_rst)
 		begin
 			if(i_rst == 1'b1)
@@ -81,7 +81,7 @@ module multiplier_35(
 					end
 				else
 					begin
-						a_seq <= a_seq<<18; // jiaweiwei: 1dly
+						a_seq <= a_seq<<18; // 1dly
 						b_seq <= b_seq<<18;
 					end
 		end	
@@ -92,10 +92,10 @@ module multiplier_35(
 		.clk(i_clk),
 		.a	(u_a),
 		.b	(u_b),
-		.p	(u_p) // jiaweiwei: 2dly
+		.p	(u_p) // 2dly
 		);
 	
-	// jiaweiwei: 各乘积扩大对应2^n倍
+	// 各乘积扩大对应2^n倍
 	always @(posedge i_clk)
 		begin
 			case(en_buf[5:2])
@@ -107,7 +107,7 @@ module multiplier_35(
 			endcase
 		end
 	
-	// jiaweiwei: 累加
+	// 累加
 	always @(posedge i_clk)
 		begin
 			// if(en_buf[2] == 1'b1)
@@ -122,7 +122,7 @@ module multiplier_35(
 				// c_in_17 <= c_in[16:0];
 		end
 
-	// jiaweiwei: 输出
+	// 输出
 	// assign o_in_en = en_buf[3];
 	assign o_c = c_acc;
 	// assign o_c = {c_acc,c_in_17};
