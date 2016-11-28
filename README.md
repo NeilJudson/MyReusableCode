@@ -33,7 +33,7 @@ My reusable code<br>
 * complex_abs_power2_42
 
 ##multiplier
+* multiplier_1dsp_35_35
+* multiplier_1dsp_52_52
 * multiplier_1dsp_69_18
-* multiplier_2dsp_52
-* multiplier_35
-* multipler_52
+* multiplier_2dsp_52_52
