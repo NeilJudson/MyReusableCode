@@ -27,6 +27,7 @@ My reusable code<br>
 
 #Verilog
 * complex_multiplier_17_18
+* shift_register
 
 ##complex_abs_power2
 * complex_abs_power2_18
