@@ -1,3 +1,0 @@
-verilog work "ip/dsp48a1_ip_mul_add.v"
-verilog work "ip/dsp48a1_ip_mul.v"
-verilog work "code/complex_abs_power2_18.v"
