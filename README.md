@@ -1,39 +1,49 @@
 MyReusableCode
 ==============
+
 My reusable code<br>
 
-#Java
-##awt
+Java
+----
+
+###awt
 * Graphics
 
-##lang
+###lang
 * Math
 
-##util
+###util
 * Print
 * Range
 
-#Matlab
-##数字信号处理
+Matlab
+------
+
+###数字信号处理
 * delta
 * unitStep
 
-##数字图像处理
+###数字图像处理
 * GetDataFromHexDatFile
 * OnesComplement
 
-#Python
+Python
+------
+
 * bubbleSort
 
-#Verilog
+Verilog
+-------
+
 * complex_multiplier_17_18
 * shift_register
 
-##complex_abs_power2
+###complex_abs_power2
 * complex_abs_power2_18
+* complex_abs_power2_35_1dsp
 * complex_abs_power2_42
 
-##multiplier
+###multiplier
 * multiplier_1dsp_35_35
 * multiplier_1dsp_52_52
 * multiplier_1dsp_69_18
