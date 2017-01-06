@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: Neil Judson
 // 
-// Create Date: 2016/11/21 15:51:39
+// Create Date: 2017/01/06 15:29:37
 // Design Name: 
 // Module Name: complex_abs_power2_18
 // Project Name: 
