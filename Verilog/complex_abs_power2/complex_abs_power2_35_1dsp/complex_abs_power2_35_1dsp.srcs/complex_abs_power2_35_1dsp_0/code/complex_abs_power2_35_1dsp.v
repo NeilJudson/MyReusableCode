@@ -26,16 +26,16 @@ module complex_abs_power2_35_1dsp(
 	i_en,
 	i_r,
 	i_i,
-	o_p,
-	o_p_en
+	o_p_en,
+	o_p
     );
 	input					i_clk;
 	input					i_rst;
-	input					i_en; // jiaweiwei: 6个周期后才能输入下一个数据
+	input					i_en; // 6个周期后才能输入下一个数据
 	input	signed	[34:0]	i_r;
 	input	signed	[34:0]	i_i;
-	output	signed	[69:0]	o_p; // jiaweiwei: 12dly
 	output					o_p_en;
+	output	signed	[69:0]	o_p; // 12dly
 	
 	reg				[11:0]	en_buf;
 	reg		signed	[34:0]	r_buf;
@@ -66,7 +66,7 @@ module complex_abs_power2_35_1dsp(
 		begin
 			if(i_en == 1'b1)
 				begin
-					r_buf <= i_r; // jiaweiwei: 1dly
+					r_buf <= i_r; // 1dly
 					i_buf <= i_i;
 				end
 			else
@@ -81,7 +81,7 @@ module complex_abs_power2_35_1dsp(
 			case({en_buf[6:0]})
 				7'd1:
 					begin
-						u_a <= {r_buf[34:17]}; // jiaweiwei: 1dly
+						u_a <= {r_buf[34:17]}; // 1dly
 						u_b <= {r_buf[34:17]};
 						u_c <= 48'd0;
 					end
@@ -130,7 +130,7 @@ module complex_abs_power2_35_1dsp(
 			endcase
 		end
 	
-	dsp48_mul_add_ip u_dsp48_mul_add_ip(	// jiaweiwei: 3dly
+	dsp48_mul_add_ip u_dsp48_mul_add_ip(	// 3dly
 		.CLK(i_clk),
 		.A	(u_a),
 		.B	(u_b),
@@ -142,7 +142,7 @@ module complex_abs_power2_35_1dsp(
 		begin
 			case(en_buf[9:7])
 				3'd1: p_in <= {u_p[35:0],34'd0};
-				3'd2: p_in <= {{(4){u_p[47]}},u_p,18'd0}; // jiaweiwei: 这里乘以2了
+				3'd2: p_in <= {{(4){u_p[47]}},u_p,18'd0}; // 这里乘以2了
 				3'd4: p_in <= {{(22){u_p[47]}},u_p};
 				default: p_in <= 70'd0;
 			endcase
@@ -161,13 +161,13 @@ module complex_abs_power2_35_1dsp(
 			else
 				begin
 					p_acc <= p_acc + p_in;
-					// p_acc <= p_acc + p_in[69:18]; // jiaweiwei: 这里截去了末尾18个0，减少加法位宽
+					// p_acc <= p_acc + p_in[69:18]; // 这里截去了末尾18个0，减少加法位宽
 					// p_in_18 <= p_in[17:0];
 				end
 		end
-
+	
+	assign o_p_en = en_buf[11];
 	assign o_p = p_acc;
 	// assign o_p = {p_acc,p_in_18};
-	assign o_p_en = en_buf[11];
 	
 endmodule
