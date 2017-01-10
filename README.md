@@ -44,7 +44,7 @@ Verilog
 * complex_abs_power2_42
 
 ###multiplier
-* multiplier_1dsp_35_35
+* multiplier_35_1dsp
 * multiplier_1dsp_52_52
 * multiplier_1dsp_69_18
 * multiplier_2dsp_52_52
