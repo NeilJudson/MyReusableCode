@@ -1,0 +1,37 @@
+Vivado Simulator 2015.2
+Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/15.2/Vivado/2015.2/bin/unwrapped/win64.o/xelab.exe -wto 1f05ad0562584768a98e8a22702b4d91 --debug typical --relax --mt 2 -L xbip_dsp48_wrapper_v3_0 -L xbip_utils_v3_0 -L xbip_pipe_v3_0 -L xbip_dsp48_macro_v3_0 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot test_complex_abs_power2_35_1dsp_behav xil_defaultlib.test_complex_abs_power2_35_1dsp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package std.textio
+Compiling package xbip_utils_v3_0.xbip_utils_v3_0_pkg
+Compiling package xbip_dsp48_macro_v3_0.xbip_dsp48_macro_v3_0_viv_comp
+Compiling package xbip_dsp48_macro_v3_0.xbip_dsp48_macro_v3_0_pkg
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,0,0,0,0,0,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,0,0,0,0,0,...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(1,0,0,1,"NO_RESET","DIR...]
+Compiling architecture synth of entity xbip_dsp48_wrapper_v3_0.xbip_dsp48e1_wrapper_v3_0 [\xbip_dsp48e1_wrapper_v3_0(1,1,1...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,0,0,0,0,0,...]
+Compiling architecture synth of entity xbip_pipe_v3_0.xbip_pipe_v3_0_viv [\xbip_pipe_v3_0_viv(0,0,0,0,0,0,...]
+Compiling architecture synth of entity xbip_dsp48_macro_v3_0.xbip_dsp48_macro_synth [\xbip_dsp48_macro_synth(0,0,"zyn...]
+Compiling architecture synth of entity xbip_dsp48_macro_v3_0.xbip_dsp48_macro_v3_0_viv [\xbip_dsp48_macro_v3_0_viv(0,0,"...]
+Compiling architecture xilinx of entity xbip_dsp48_macro_v3_0.xbip_dsp48_macro_v3_0 [\xbip_dsp48_macro_v3_0(0,0,"zynq...]
+Compiling architecture dsp48_mul_add_ip_arch of entity xil_defaultlib.dsp48_mul_add_ip [dsp48_mul_add_ip_default]
+Compiling module xil_defaultlib.complex_abs_power2_35_1dsp
+Compiling module xil_defaultlib.test_complex_abs_power2_35_1dsp
+Compiling module xil_defaultlib.glbl
+Waiting for 2 sub-compilation(s) to finish...
+Built simulation snapshot test_complex_abs_power2_35_1dsp_behav

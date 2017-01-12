@@ -1,0 +1,7 @@
+Running: xsim.dir/test_complex_abs_power2_35_1dsp_behav/xsimk.exe -simmode gui -wdb test_complex_abs_power2_35_1dsp_behav.wdb -simrunnum 0 -socket 54892
+Design successfully loaded
+Design Loading Memory Usage: 19452 KB (Peak: 19452 KB)
+Design Loading CPU Usage: 109 ms
+Simulation completed
+Simulation Memory Usage: 27952 KB (Peak: 27952 KB)
+Simulation CPU Usage: 17705 ms

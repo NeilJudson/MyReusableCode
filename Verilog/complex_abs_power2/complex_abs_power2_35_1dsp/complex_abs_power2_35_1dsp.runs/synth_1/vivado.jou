@@ -2,9 +2,9 @@
 # Vivado v2015.2.1 (64-bit)
 # SW Build 1302555 on Wed Aug  5 13:06:02 MDT 2015
 # IP Build 1291990 on Mon Jul 27 03:18:52 MDT 2015
-# Start of session at: Tue Jan 10 17:55:13 2017
-# Process ID: 2328
-# Log file: F:/jiaweiwei/Project/MyReusableCode/Verilog/complex_abs_power2/complex_abs_power2_35_1dsp/complex_abs_power2_35_1dsp.runs/synth_1/complex_abs_power2_35_1dsp.vds
-# Journal file: F:/jiaweiwei/Project/MyReusableCode/Verilog/complex_abs_power2/complex_abs_power2_35_1dsp/complex_abs_power2_35_1dsp.runs/synth_1\vivado.jou
+# Start of session at: Thu Jan 12 14:36:22 2017
+# Process ID: 1760
+# Log file: E:/jiaweiwei/Vivado workspace/tools/complex_abs_power2_35_1dsp/complex_abs_power2_35_1dsp.runs/synth_1/complex_abs_power2_35_1dsp.vds
+# Journal file: E:/jiaweiwei/Vivado workspace/tools/complex_abs_power2_35_1dsp/complex_abs_power2_35_1dsp.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source complex_abs_power2_35_1dsp.tcl -notrace
