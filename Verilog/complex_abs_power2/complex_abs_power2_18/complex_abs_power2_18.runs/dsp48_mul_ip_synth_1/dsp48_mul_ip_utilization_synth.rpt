@@ -1,8 +1,8 @@
 Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2015.2.1 (win64) Build 1302555 Wed Aug  5 13:06:02 MDT 2015
-| Date         : Tue Jan 10 19:47:18 2017
-| Host         : FUTURE3 running 64-bit Service Pack 1  (build 7601)
+| Date         : Tue Jan 10 19:38:46 2017
+| Host         : txjs-130 running 64-bit Service Pack 1  (build 7601)
 | Command      : report_utilization -file dsp48_mul_ip_utilization_synth.rpt -pb dsp48_mul_ip_utilization_synth.pb
 | Design       : dsp48_mul_ip
 | Device       : xc7z045

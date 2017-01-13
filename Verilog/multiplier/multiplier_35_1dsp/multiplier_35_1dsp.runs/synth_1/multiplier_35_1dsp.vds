@@ -2,29 +2,29 @@
 # Vivado v2015.2.1 (64-bit)
 # SW Build 1302555 on Wed Aug  5 13:06:02 MDT 2015
 # IP Build 1291990 on Mon Jul 27 03:18:52 MDT 2015
-# Start of session at: Tue Jan 10 20:23:32 2017
-# Process ID: 7000
-# Log file: F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/multiplier_35_1dsp.vds
-# Journal file: F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1\vivado.jou
+# Start of session at: Fri Jan 13 10:52:50 2017
+# Process ID: 2732
+# Log file: E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/multiplier_35_1dsp.vds
+# Journal file: E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source multiplier_35_1dsp.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1700] Loaded user IP repository 'f:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.srcs/sources_1'.
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/jiaweiwei/Xilinx/15.2/Vivado/2015.2/data/ip'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.srcs/sources_1'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/15.2/Vivado/2015.2/data/ip'.
 Command: synth_design -top multiplier_35_1dsp -part xc7z045fbg676-3
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z045'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z045'
-INFO: [Common 17-1223] The version limit for your license is '2017.01' and will expire in 21 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
+INFO: [Common 17-1223] The version limit for your license is '2017.01' and will expire in 18 days. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 255.496 ; gain = 82.348
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 255.902 ; gain = 69.266
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'multiplier_35_1dsp' [F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.srcs/sources_1/code/multiplier_35_1dsp.v:23]
-INFO: [Synth 8-638] synthesizing module 'dsp48_mul_ip' [F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/.Xil/Vivado-7000-FUTURE3/realtime/dsp48_mul_ip_stub.v:7]
-INFO: [Synth 8-256] done synthesizing module 'dsp48_mul_ip' (1#1) [F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/.Xil/Vivado-7000-FUTURE3/realtime/dsp48_mul_ip_stub.v:7]
-INFO: [Synth 8-256] done synthesizing module 'multiplier_35_1dsp' (2#1) [F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.srcs/sources_1/code/multiplier_35_1dsp.v:23]
+INFO: [Synth 8-638] synthesizing module 'multiplier_35_1dsp' [E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.srcs/sources_1/code/multiplier_35_1dsp.v:23]
+INFO: [Synth 8-638] synthesizing module 'dsp48_mul_ip' [E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/.Xil/Vivado-2732-txjs-130/realtime/dsp48_mul_ip_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'dsp48_mul_ip' (1#1) [E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/.Xil/Vivado-2732-txjs-130/realtime/dsp48_mul_ip_stub.v:7]
+INFO: [Synth 8-256] done synthesizing module 'multiplier_35_1dsp' (2#1) [E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.srcs/sources_1/code/multiplier_35_1dsp.v:23]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 289.746 ; gain = 116.598
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 290.160 ; gain = 103.523
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -34,40 +34,40 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 289.746 ; gain = 116.598
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 290.160 ; gain = 103.523
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z045fbg676-3
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/dont_touch.xdc]
-Finished Parsing XDC File [F:/jiaweiwei/Project/MyReusableCode/Verilog/multiplier/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/dont_touch.xdc]
+Parsing XDC File [E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/jiaweiwei/Vivado workspace/tools/multiplier_35_1dsp/multiplier_35_1dsp.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 660.820 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 663.848 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z045fbg676-3
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for u_dsp48_mul_ip. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -112,14 +112,14 @@ BRAMs: 1090 (col length: RAMB18 140 RAMB36 70)
 ---------------------------------------------------------------------------------
 Finished Part Resource Summary
 ---------------------------------------------------------------------------------
-Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 660.820 ; gain = 487.672
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 Start Cross Boundary Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Cross Boundary Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
-Finished Parallel Reinference  : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Parallel Reinference  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
@@ -136,16 +136,16 @@ WARNING: [Synth 8-3332] Sequential element (\b_seq_reg[17] ) is unused and will 
 Start Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
-Finished Parallel Area Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Parallel Area Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 
 Report RTL Partitions: 
 +-+--------------+------------+----------+
 | |RTL Partition |Replication |Instances |
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
-Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
@@ -153,10 +153,10 @@ Start Timing Optimization
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -168,7 +168,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -186,7 +186,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished IO Insertion : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -199,7 +199,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -211,13 +211,13 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Start Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Start Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -237,30 +237,27 @@ Report Cell Usage:
 |1     |dsp48_mul_ip |     1|
 |2     |BUFG         |     1|
 |3     |CARRY4       |    18|
-|4     |LUT2         |    38|
-|5     |LUT3         |   193|
+|4     |LUT2         |    37|
+|5     |LUT3         |   192|
 |6     |LUT4         |     1|
-|7     |LUT5         |     1|
-|8     |LUT6         |    34|
-|9     |FDCE         |   149|
-|10    |FDRE         |   120|
-|11    |FDSE         |    18|
-|12    |IBUF         |    73|
-|13    |OBUF         |    70|
+|7     |LUT6         |    52|
+|8     |FDCE         |   287|
+|9     |IBUF         |    73|
+|10    |OBUF         |    70|
 +------+-------------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |   764|
+|1     |top      |       |   779|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 487.672
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 663.848 ; gain = 477.211
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 660.820 ; gain = 78.992
-Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:38 . Memory (MB): peak = 660.820 ; gain = 487.672
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 663.848 ; gain = 71.969
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 663.848 ; gain = 477.211
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 91 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -272,6 +269,6 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 20 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 660.820 ; gain = 450.066
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.156 . Memory (MB): peak = 660.820 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Tue Jan 10 20:24:13 2017...
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 663.848 ; gain = 452.363
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 663.848 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Jan 13 10:53:21 2017...
